@@ -8,6 +8,14 @@
   .nav-divider {
     display: none;
   }
+
+  .route-header {
+    margin-top: 10px;
+  }
+
+  .check-route-btn {
+    width: 100%;
+  }
 }
 
 * {
@@ -76,6 +84,62 @@ footer {
   color: var(--bg-blue-dark-color);
 }
 /*best-routes*/
+.all-routes {
+  margin-top: 60px;
+  color: var(--bg-blue-dark-color);
+}
+
+.best-routes-hr {
+  margin: auto;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.route-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.route-header {
+  font-size: medium;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.route-information {
+  margin-top: 20px;
+  line-height: 5px;
+}
+
+.check-route-btn-div {
+  text-align: right;
+}
+
+.check-route-btn {
+  color: var(--light-color);
+  font-weight: 500;
+  text-decoration: none;
+  background-color: var(--bg-blue-dark-color);
+}
+
+.check-route-btn:hover {
+  text-decoration: underline;
+  background-color: var(--bg-blue-dark-color);
+}
+
+.check-route-link {
+  color: var(--light-color);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.check-route-link:hover {
+  color: var(--light-color);
+  font-weight: 500;
+  text-decoration: underline;
+}
+
 /*about-fatra*/
 .about-fatra-intro {
   margin-top: 40px;
