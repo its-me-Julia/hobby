@@ -50,18 +50,26 @@ span {
   font-weight: bolder;
 }
 
-hr {
-  height: 2px;
-  margin: auto;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  width: 90%;
-  background-color: var(--bg-blue-dark-color);
-  opacity: 1;
+footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: var(--bg-blue-dark-color);
+}
+
+.footer-link {
+  color: var(--bg-blue-dark-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
 }
 
 /*home*/
 .index-intro {
+  margin-top: 40px;
   text-align: center;
   width: 80%;
   font-weight: bold;
@@ -70,6 +78,7 @@ hr {
 /*best-routes*/
 /*about-fatra*/
 .about-fatra-intro {
+  margin-top: 40px;
   width: 80%;
   color: var(--bg-blue-dark-color);
   text-align: center;
@@ -78,7 +87,7 @@ hr {
 .about-fatra-div {
   background-color: var(--bg-blue-light-color);
   padding: 20px;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .about-fatra-p {
@@ -89,6 +98,7 @@ hr {
 }
 /*all-peaks*/
 .all-peaks-intro {
+  margin-top: 40px;
   width: 80%;
   color: var(--bg-blue-dark-color);
   text-align: center;
