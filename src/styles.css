@@ -5,7 +5,15 @@
 }
 
 * {
-  background-color: #fbfbfb;
+  background-color: var(--light-color);
   margin: auto;
   font-family: "Roboto", sans-serif;
+}
+
+.header img {
+  width: 100%;
+}
+
+.index-header-mountains {
+  background-color: none;
 }
