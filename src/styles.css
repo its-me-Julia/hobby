@@ -5,15 +5,25 @@
 }
 
 @media (max-width: 992px) {
-  span {
+  .nav-divider {
     display: none;
   }
 }
 
 * {
-  background-color: var(--light-color);
   margin: auto;
   font-family: "Roboto", sans-serif;
+}
+
+/*general*/
+
+body {
+  background-color: var(--light-color);
+}
+
+.bold {
+  font-weight: bold;
+  font-size: medium;
 }
 
 .header img {
@@ -21,7 +31,7 @@
 }
 
 .navbar-nav {
-  width: 992px;
+  width: 50%;
 }
 
 span {
@@ -41,6 +51,45 @@ span {
 }
 
 hr {
+  height: 2px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 90%;
+  background-color: var(--bg-blue-dark-color);
+  opacity: 1;
+}
+
+/*home*/
+.index-intro {
+  text-align: center;
+  width: 80%;
+  font-weight: bold;
+  color: var(--bg-blue-dark-color);
+}
+/*best-routes*/
+/*about-fatra*/
+.about-fatra-intro {
   width: 80%;
   color: var(--bg-blue-dark-color);
+  text-align: center;
+}
+
+.about-fatra-div {
+  background-color: var(--bg-blue-light-color);
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.about-fatra-p {
+  color: var(--light-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 3%;
+}
+/*all-peaks*/
+.all-peaks-intro {
+  width: 80%;
+  color: var(--bg-blue-dark-color);
+  text-align: center;
 }
