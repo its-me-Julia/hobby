@@ -140,6 +140,26 @@ footer {
   text-decoration: underline;
 }
 
+.best-routes-bottom-div {
+  background-color: var(--bg-blue-light-color);
+  padding: 20px;
+  margin-top: 70px;
+}
+
+.best-routes-bottom-p {
+  color: var(--light-color);
+  text-align: center;
+}
+
+.best-routes-bottom-link {
+  color: var(--light-color);
+  text-decoration: none;
+}
+
+.best-routes-bottom-link:hover {
+  text-decoration: underline;
+}
+
 /*about-fatra*/
 .about-fatra-intro {
   margin-top: 40px;
