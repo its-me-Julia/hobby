@@ -16,6 +16,12 @@
   .check-route-btn {
     width: 100%;
   }
+
+  .best-routes-hr {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 * {
