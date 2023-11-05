@@ -18,9 +18,11 @@
   }
 
   .best-routes-hr {
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    display: none;
+  }
+
+  .single-route {
+    margin-top: 30px;
   }
 }
 
