@@ -4,6 +4,12 @@
   --light-color: rgba(251, 251, 251, 1);
 }
 
+@media (max-width: 992px) {
+  span {
+    display: none;
+  }
+}
+
 * {
   background-color: var(--light-color);
   margin: auto;
@@ -14,6 +20,27 @@
   width: 100%;
 }
 
-.index-header-mountains {
-  background-color: none;
+.navbar-nav {
+  width: 992px;
+}
+
+span {
+  font-size: 24px;
+}
+
+.nav-link {
+  color: var(--bg-blue-dark-color);
+}
+
+.nav-link:hover {
+  color: var(--bg-blue-dark-color);
+}
+
+.active {
+  font-weight: bolder;
+}
+
+hr {
+  width: 80%;
+  color: var(--bg-blue-dark-color);
 }
