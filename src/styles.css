@@ -206,11 +206,19 @@ footer {
 }
 
 .all-peaks-row {
+  display: flex;
+}
+
+.single-peak {
+  display: flex;
   margin-top: 50px;
 }
 
-.all-peaks-single-peak {
-  margin-top: 50px;
+.all-peaks-text {
+  line-height: 5px;
+}
+.all-peaks-text-special {
+  line-height: normal;
 }
 
 .all-peaks-peak-header {
@@ -221,6 +229,15 @@ footer {
 .all-peaks-peak-info {
   font-weight: bold;
   color: var(--bg-blue-light-color);
+}
+
+.all-peaks-peak-link {
+  text-decoration: none;
+}
+
+.all-peaks-peak-link:hover {
+  text-decoration: underline;
+  color: var(--bg-blue-dark-color);
 }
 
 .all-peaks-fact {
