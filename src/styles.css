@@ -24,6 +24,10 @@
   .single-route {
     margin-top: 30px;
   }
+
+  .all-peaks-row {
+    margin: auto;
+  }
 }
 
 * {
@@ -194,4 +198,39 @@ footer {
   width: 80%;
   color: var(--bg-blue-dark-color);
   text-align: center;
+}
+
+.all-peaks-container {
+  margin-top: 100px;
+  margin: auto;
+}
+
+.all-peaks-row {
+  margin-top: 50px;
+}
+
+.all-peaks-single-peak {
+  margin-top: 50px;
+}
+
+.all-peaks-peak-header {
+  font-weight: 700;
+  color: var(--bg-blue-dark-color);
+}
+
+.all-peaks-peak-info {
+  font-weight: bold;
+  color: var(--bg-blue-light-color);
+}
+
+.all-peaks-fact {
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  color: var(--light-color);
+  background-color: var(--bg-blue-light-color);
+}
+
+.all-peaks-p {
+  width: 80%;
 }
