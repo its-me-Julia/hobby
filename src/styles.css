@@ -38,6 +38,10 @@
   .all-peaks-text {
     margin-top: 30px;
   }
+
+  .index-row {
+    flex-direction: column;
+  }
 }
 
 * {
@@ -105,6 +109,37 @@ footer {
   font-weight: bold;
   color: var(--bg-blue-dark-color);
 }
+
+.index-container {
+  margin: auto;
+  margin-top: 150px;
+  background-color: var(--bg-blue-light-color);
+}
+
+.index-text {
+  color: var(--light-color);
+  text-align: center;
+  margin-top: 30px;
+}
+
+.index-link {
+  color: var(--light-color);
+  text-decoration: none;
+}
+
+.index-link:hover {
+  text-decoration: underline;
+}
+
+.index-header {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.index-description-text {
+  font-size: 16px;
+}
+
 /*best-routes*/
 .all-routes {
   margin-top: 60px;
@@ -113,7 +148,6 @@ footer {
 
 .best-routes-hr {
   margin: auto;
-
   margin-top: 50px;
   margin-bottom: 50px;
 }
