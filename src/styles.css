@@ -69,8 +69,13 @@
   #footer {
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 0px;
     text-align: center;
     background-color: var(--bg-blue-light-color);
+    color: var(--light-color);
+  }
+
+  #footer-text {
     color: var(--light-color);
   }
 
@@ -81,6 +86,7 @@
   }
 
   #footer-link:hover {
+    color: var(--light-color);
     text-decoration: underline;
   }
 }
@@ -109,7 +115,7 @@ body {
   width: 50%;
 }
 
-span {
+.nav-divider {
   font-size: 24px;
 }
 
