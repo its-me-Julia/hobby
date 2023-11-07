@@ -188,7 +188,7 @@ footer {
 
 .index-circle-pic {
   background-color: var(--light-color);
-  border: 30px solid;
+  border: 15px solid;
   border-radius: 180px;
   border-color: var(--light-color);
   width: 250px;
