@@ -58,11 +58,30 @@
 
   .index-header {
     color: var(--bg-blue-dark-color);
+    margin-top: -35px;
   }
 
   .index-description-text {
     width: 80%;
     color: var(--bg-blue-dark-color);
+  }
+
+  #footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: var(--bg-blue-light-color);
+    color: var(--light-color);
+  }
+
+  #footer-link {
+    color: var(--light-color);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  #footer-link:hover {
+    text-decoration: underline;
   }
 }
 
@@ -140,12 +159,12 @@ footer {
 }
 
 .top {
-  height: 500px;
+  height: auto;
   z-index: 1;
 }
 
 .bottom {
-  margin-top: -230px;
+  margin-top: -330px;
   height: 400px;
   width: 100%;
   background-color: var(--bg-blue-light-color);
@@ -196,6 +215,23 @@ footer {
 
 .index-description-text {
   font-size: 16px;
+}
+
+#footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: var(--bg-blue-dark-color);
+}
+
+#footer-link {
+  color: var(--bg-blue-dark-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#footer-link:hover {
+  text-decoration: underline;
 }
 
 /*best-routes*/
